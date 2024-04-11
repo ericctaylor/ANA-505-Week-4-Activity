@@ -24,6 +24,7 @@ male_data <- filter(gender_data, Gender == "male")
 arranged_data <- arrange(gender_data, Gender)
 
 total_frequency <- sum(titanicDF$Freq)
+
 #TASK: After you run it, write the total here:2201
 
 female_data <- filter(gender_data, Gender == "female")
